@@ -42,11 +42,22 @@ public class CISUser {
         return money;
     }
 
-    public void setMoney(double money) {
+    public void setMoney(float money) {
         this.money = money;
     }
 
     public String getUserID(){
         return this.userID;
+    }
+
+    @Override
+    public String toString() {
+        return "CISUser{" +
+                "userID='" + userID + '\'' +
+                ", name='" + name + '\'' +
+                ", yearLevel='" + yearLevel + '\'' +
+                ", orders=" + orders +
+                ", money=" + money +
+                '}';
     }
 }

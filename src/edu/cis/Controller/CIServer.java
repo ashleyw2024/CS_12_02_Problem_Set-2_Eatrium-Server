@@ -59,7 +59,6 @@ public class CIServer extends ConsoleProgram
         return "Error: Unknown command " + cmd + ".";
     }
 
-
     public static void main(String[] args)
     {
         CIServer f = new CIServer();
