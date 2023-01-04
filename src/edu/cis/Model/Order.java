@@ -8,6 +8,12 @@ public class Order {
 
     private String orderID;
 
+    public Order(String itemID, String type, String orderID) {
+        this.itemID = itemID;
+        this.type = type;
+        this.orderID = orderID;
+    }
+
     public String getItemID() {
         return itemID;
     }

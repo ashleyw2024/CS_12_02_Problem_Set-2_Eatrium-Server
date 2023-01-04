@@ -14,6 +14,15 @@ public class MenuItem {
 
     private String type;
 
+    public MenuItem(String name, String description, double price, String id, String type) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.id = id;
+        this.amountAvailable = 10;
+        this.type = type;
+    }
+
     public String getName() {
         return name;
     }

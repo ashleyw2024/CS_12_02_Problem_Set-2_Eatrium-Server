@@ -10,6 +10,14 @@ public class CISUser {
     private ArrayList<Order> orders;
     private double money;
 
+    public CISUser(String userID, String name, String yearLevel) {
+        this.userID = userID;
+        this.name = name;
+        this.yearLevel = yearLevel;
+        orders = new ArrayList<>();
+        money = 50;
+    }
+
     public void setUserID(String userID) {
         this.userID = userID;
     }
@@ -42,7 +50,7 @@ public class CISUser {
         return money;
     }
 
-    public void setMoney(float money) {
+    public void setMoney(double money) {
         this.money = money;
     }
 
