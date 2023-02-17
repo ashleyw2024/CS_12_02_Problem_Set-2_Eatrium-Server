@@ -28,6 +28,7 @@ public class CISConstants
     public static final String PRICE_PARAM = "price";
     public static final String USER_ID_PARAM = "userID";
     public static final String DESC_PARAM = "description";
+    public static final String AMOUNT_AVAILABLE = "amountAvailable";
 
     //Commands
     //create user
@@ -52,4 +53,5 @@ public class CISConstants
     //Errors
     public static final String PORT_UNAVAIL = "is not available, likely because \nit's already being used by another " +
             "Java program running. \nClose all your server windows and try again.";
+    public static final String ADD_LISTING = "addListing";
 }

@@ -81,6 +81,10 @@ public class CIServer extends ConsoleProgram
             println("   => " + PING_MSG);
             return PING_MSG;
         }
+
+        if (cmd.equals(CISConstants.ADD_LISTING)){
+            return "Yes, Sir.";
+        }
         return "Error: Unknown command " + cmd + ".";
     }
 
