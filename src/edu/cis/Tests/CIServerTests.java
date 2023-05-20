@@ -376,7 +376,7 @@ public class CIServerTests extends ConsoleProgram
                 return true;
             } else
             {
-                println("Test failed. Received unknown error: " + e.getMessage() + "\n");
+                println("Test failed. Received unknown error: " + e.getStackTrace() + "\n");
                 return false;
             }
         }
