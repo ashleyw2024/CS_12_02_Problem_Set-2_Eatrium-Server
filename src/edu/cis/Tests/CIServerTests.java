@@ -13,7 +13,6 @@ import edu.cis.Utils.SimpleClient;
 
 import java.io.*;
 
-
 public class CIServerTests extends ConsoleProgram
 {
 
@@ -376,7 +375,7 @@ public class CIServerTests extends ConsoleProgram
                 return true;
             } else
             {
-                println("Test failed. Received unknown error: " + e.getStackTrace() + "\n");
+                println("Test failed. Received unknown error: " + e.getMessage() + "\n");
                 return false;
             }
         }

@@ -13,6 +13,8 @@ public class CISConstants
     public static final String USER_BROKE_ERR = "Error: the user doesn't have enough money for this item.";
     public static final String EMPTY_MENU_ERR = "Error: there are no items available in the menu server";
     public static final String PARAM_MISSING_ERR = "Error: need more information to complete request. Are you forgetting any parameters?";
+    public static final String DUP_TOP_UP_CODE = "Error: a card with that top up code already exists.";
+    public static final String TRANSACTION_FAIL = "Error: transaction failed.";
     public static final String SUCCESS = "success";
     public static final String TRUE_RET = "true";
     public static final String FALSE_RET = "false";
@@ -28,7 +30,8 @@ public class CISConstants
     public static final String PRICE_PARAM = "price";
     public static final String USER_ID_PARAM = "userID";
     public static final String DESC_PARAM = "description";
-    public static final String AMOUNT_AVAILABLE = "amountAvailable";
+    public static final String TOP_UP_CODE = "topUpCode";
+    public static final String TOP_UP_AMOUNT = "topUpAmount";
 
     //Commands
     //create user
@@ -49,9 +52,22 @@ public class CISConstants
     public static final String DELETE_MENU_ITEM = "deleteMenuItem";
     public static final String GET_MENU = "getMenu";
     public static final String GET_USER = "getUser";
+    public static final String GET_BALANCE = "getBalance";
+    public static final String GET_MENU_NAMES = "getMenuNames";
+    public static final String GET_MENU_DESCRIPTION = "getMenuDescriptions";
+    public static final String GET_MENU_TYPES = "getMenuTypes";
+    public static final String GET_MENU_PRICES = "getMenuPrices";
+    public static final String GET_MENU_ITEM_IDS = "getMenuItemIds";
+    public static final String GET_ADMIN_ID = "getAdminId";
+    public static final String GET_USER_NAME = "getName";
+    public static final String CHECK_USER = "checkUser";
+    public static final String GET_TYPE = "getType";
+    public static final String ADD_TOP_UP_CARD = "addTopUpCard";
+    public static final String TOP_UP = "topUp";
+
+    public static final String GET_TOP_UP_CARDS = "getTopUpCards";
 
     //Errors
     public static final String PORT_UNAVAIL = "is not available, likely because \nit's already being used by another " +
             "Java program running. \nClose all your server windows and try again.";
-    public static final String ADD_LISTING = "addListing";
 }
